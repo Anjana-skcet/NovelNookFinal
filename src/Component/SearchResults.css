@@ -1,0 +1,94 @@
+/* SearchResults.css */
+
+.search-results-page {
+  font-family: Arial, sans-serif;
+  /*background-image: url('https://www.adazing.com/wp-content/uploads/2021/05/book-gif-09-1.gif');*/
+  background-size: cover; /* Adjusts the size of the background image */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.headerr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: beige;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.back-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logoo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left:20px;
+}
+
+.titlee {
+  font-size: 40px;
+  margin: 0;
+  margin-right: 1100px; 
+  margin-left:20px;
+}
+
+.search-results-container {
+  padding: 60px 20px 20px; /* Adjust top padding to account for fixed header */
+}
+
+.search-results-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.search-result-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque background for better readability */
+}
+
+.search-result-item:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-result-image {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.search-result-item h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.search-result-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}

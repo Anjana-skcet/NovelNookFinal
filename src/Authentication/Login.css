@@ -1,0 +1,59 @@
+/* .aa{
+  /* background-color:white; */
+  /* padding: 60px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8); */
+  /* background-image: url(https://www.asalta.com/storage/x0_0-asalta-inventory-right-banner-e185a4b9_8730ea20.png.pagespeed.ic.-ntuhe2RL0.png); */
+   /* align-items: center;  */
+/* background-image: url(); */
+  /* backdrop-filter: blur(50px); */
+
+/* }  */
+.aa{
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(70px); 
+  }
+  .icon{
+    text-align: center;
+    padding-bottom: 20px;
+  
+  }
+  .login {
+    font-family: Arial, sans-serif;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    align-items: center;
+  }
+  /* .ars{
+    background-image: url("C:\Users\ARSHAD\Desktop\SPH Whse Inv Mgmt Blog-shutterstock_1930996376.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+  } */
+   .login
+  {
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+  } 
+  .ab{
+    align-items: center;
+    background-color: black;
+  }
+  .bck{
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+.im{
+    padding-left: 10px;
+    padding-bottom: 40px;
+}

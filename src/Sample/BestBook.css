@@ -1,0 +1,78 @@
+/* BestBook.css */
+.best-book-detail {
+  background-image: url('https://t4.ftcdn.net/jpg/01/06/84/75/360_F_106847582_7JcRyHVy0xsp9qIDvuccmdl5oz3jorbm.jpg');
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best-book-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.best-book-info {
+  display: flex;
+  flex-direction: row; /* Ensure content is side by side */
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.best-book-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.best-book-image {
+  width: 200px;
+  height: auto;
+  margin-right: 20px; /* Space between image and text */
+}
+
+.best-book-details {
+  flex: 2;
+}
+
+.best-book-details h2,
+.best-book-details p,
+.best-book-details h3 {
+  margin: 10px 0;
+}
+
+.author-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.best-author-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.best-book-rating {
+  display: flex;
+  align-items: center; /* Align items center vertically */
+  margin: 10px 0;
+}
+
+.best-book-rating strong {
+  margin-right: 10px; /* Space between heading and stars */
+}
+

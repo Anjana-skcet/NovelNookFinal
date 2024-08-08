@@ -1,0 +1,26 @@
+.REG {
+  font-family: Arial, sans-serif;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aa {
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(70px);
+}
+
+.sy{
+  padding: 60px;
+border-radius: 20px;
+box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+backdrop-filter: blur(70px); 
+}

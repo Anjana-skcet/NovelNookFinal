@@ -1,0 +1,91 @@
+.prof-search-results-page {
+    font-family: Arial, sans-serif;
+    background-image: url('https://t4.ftcdn.net/jpg/08/93/42/09/360_F_893420983_TgWWjmDOrnhciIDWh7qWbMzwpvYfvfyC.jpg');
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; 
+    /* Prevents the background image from repeating */
+    min-height: 100vh; /* Ensures the background covers the entire view height */
+    padding-top: 80px; 
+  }
+  
+  .prof-headerr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: beige;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .prof-back-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .prof-logo-title-container {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allows title to be centered */
+    justify-content: center;
+  }
+  
+  .prof-logoo {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 40px;
+  }
+  
+  .prof-titlee {
+    font-size: 40px;
+    margin: 0;
+    margin-right: 1100px; 
+  }
+
+  .prof-profile-section {
+    align-items: center;
+    display: flex;
+    margin-top: 10px; /* Adds space below the navbar */
+  }
+
+  .prof-profile-pic {
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-right: 70px;
+    margin-left:90px;
+  }
+  
+  .prof-user-name {
+    font-size: 1.5em;
+    color: #333;
+  }
+  h5{
+    margin-left:360px;
+  }
+  .prof-want-to-read-list {
+    margin-left: 360px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.prof-want-to-read-list li {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.prof-book-list {
+    margin-left: 360px;
+    list-style-type: none;
+  }

@@ -1,0 +1,280 @@
+.hhome-container {
+  position: relative;
+  text-align: center;
+  min-height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.hheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: beige;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.hlogo-container {
+  display: flex;
+  align-items: center;
+}
+
+.havatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.htitle {
+  font-size: 2.5em;
+  color: #333;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+
+.hsearch-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.hsearch-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right:400px;
+}
+.huser-icon {
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  width:50px;
+  height:50px;
+  margin-right:20px;
+}
+
+.hdropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.hdropdown-item {
+  cursor: pointer;
+}
+
+.himage-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  margin-top: 100px;
+}
+
+.hbookshelf-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hquote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+.hcard {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  z-index: 15;
+  text-align: center;
+}
+
+.hcard h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.hcard p {
+  font-size: 1em;
+  color: #666;
+}
+
+.hbookk-images {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.hbook-imagee {
+  width: 140px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hsearch-results {
+  margin-top: 20px;
+}
+
+.hsearch-results-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hbook-card {
+  cursor: pointer;
+  text-align: center;
+}
+
+.hbook-card img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.hbook-card h3 {
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.hbook-detail-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hbook-detail-header {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hback-button {
+  background: none;
+  border: none;
+  font-size: 1em;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.hbook-title {
+  font-size: 2em;
+  color: #333;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.hbook-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hbook-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.hbook-meta {
+  text-align: center;
+}
+
+.hbook-meta h2,
+.hbook-meta h3 {
+  margin: 10px 0;
+}
+
+.hrating span {
+  font-size: 1.5em;
+  color: gold;
+}
+
+.hauthor-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.hcomments-section {
+  margin-top: 20px;
+}
+
+.hcomments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hcomment-item {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hcomment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.hcomment-box {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+.hsubmit-button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hgenre-button {
+  color: black;
+  margin-right: 40px;/* Adjust spacing as needed */
+  text-transform: none; /* Ensure the text is not capitalized */
+}
