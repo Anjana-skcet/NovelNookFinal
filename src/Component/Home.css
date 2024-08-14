@@ -37,6 +37,7 @@
   margin: 0;
   padding: 10px;
   text-align: left;
+  font-family: Baskerville;
 }
 
 
@@ -118,7 +119,7 @@
 
 .hcard p {
   font-size: 1em;
-  color: #666;
+  color:black;
 }
 
 .hbookk-images {
@@ -277,4 +278,9 @@
   color: black;
   margin-right: 40px;/* Adjust spacing as needed */
   text-transform: none; /* Ensure the text is not capitalized */
+}
+
+.head{
+  color: black;
+  font-size: 2em;
 }

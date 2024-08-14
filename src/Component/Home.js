@@ -8,6 +8,7 @@ import services from '../Services/addservices'
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -88,7 +89,7 @@ const Home = () => {
             onKeyDown={handleSearch}
           />
         </div>
-        <Button variant="text" className="hgenre-button" onClick={handleGenreClick}>Genre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button>
+        <Button style={{ color: "#000" }} variant="text" className="hgenre-button" onClick={handleGenreClick} >GENRE&nbsp;&nbsp;&nbsp;&nbsp;</Button>
         <Dropdown alignRight>
           <Dropdown.Toggle as={FaUserCircle} className="huser-icon" />
           <Dropdown.Menu>
@@ -111,7 +112,7 @@ const Home = () => {
         <p>You've come to the right place. Share the books or genres you've enjoyed before, and we'll provide you with surprisingly spot-on suggestions.</p>
       </div>
       <div className="hcard">
-        <p>Best Books of the Year</p>
+        <h2 className="head">Best Books of the Year</h2>
         <div className="hbookk-images">
           {bestBooks.length > 0 ? (
             bestBooks.map(book => (
@@ -130,7 +131,7 @@ const Home = () => {
       </div>
 
       <div className="hcard">
-        <p>Recently Read Books</p>
+        <h2>Recently Read Books</h2>
         <div className="hbookk-images">
           {recentBooks.length > 0 ? (
             recentBooks.map(book => (

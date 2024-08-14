@@ -2,6 +2,7 @@
 
 .search-results-page {
   font-family: Arial, sans-serif;
+  background-color: #F0FFF0;
   /*background-image: url('https://www.adazing.com/wp-content/uploads/2021/05/book-gif-09-1.gif');*/
   background-size: cover; /* Adjusts the size of the background image */
   background-position: center; /* Centers the background image */
@@ -49,9 +50,11 @@
   margin: 0;
   margin-right: 1100px; 
   margin-left:20px;
+  font-family: Baskerville;
 }
 
 .search-results-container {
+  margin-top: 20px;
   padding: 60px 20px 20px; /* Adjust top padding to account for fixed header */
 }
 
