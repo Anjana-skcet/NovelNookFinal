@@ -68,19 +68,4 @@ const BookPage = () => {
     
     export default BookPage;
     
-    /*<div className="reviews-section">
-      <h2>User Reviews</h2>
-      {reviews.length > 0 ? (
-        <ul className="reviews-list">
-          {reviews.map(review => (
-            <li key={review.id} className="review-item">
-              <h4>{review.user}</h4>
-              <p>Rating: {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}</p>
-              <p>{review.comment}</p>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>No reviews available.</p>
-      )}
-    </div>*/
+   
